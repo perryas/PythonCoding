@@ -45,17 +45,17 @@ if weight <= 4.8:
   ground_cost = weight * 1.50 + 20
 elif weight >= 2 and weight <= 6:
   ground_cost = weight * 3.00 + 20
-elif weight >= 6 or weight <= 10:
+elif weight <= 10:
   ground_cost = weight + 4.00 + 20
-elif weight >= 10:
+else:
   ground_cost = weight + 4.75 + 20
-#else:
+  print("Initial Test", ground_cost)
+
   ground_test = weight * 4.00 + 20.00
-  print(ground_test)
+  print("Ground Shipping $", ground_test)
 
 #Premium Shipping  
   premium_ground_cost = 125.00
-  print(premium_ground_cost)
 
 #Drone Shipping
 
@@ -64,17 +64,17 @@ weight = 41.5
 
 if weight <= 2:
   drone_cost = weight * 4.50 
-elif weight >= 2 and weight <= 6:
+elif weight <= 6:
   drone_cost = weight * 9.00
-elif weight >= 6 or weight <= 10:
+elif weight <= 10:
   drone_cost = weight * 12.00
-elif weight >= 10:
+else:
   drone_cost = weight * 14.25
   print(drone_cost)  
 
 #Drone package test
 drone_test = weight * 4.50 + 0
-print(drone_test)
+print("Drone Shipping", drone_test)
 
 
 
