@@ -35,7 +35,7 @@ print("D.", option4)
 answer = 'a'
 
 if answer == 'A' or answer == 'a': 
-  score += 100
+  score += 100b
   print("\nCorrect!")
 else:
   print("\nNope, sorry!")
