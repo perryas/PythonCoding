@@ -36,3 +36,11 @@ Create a two-dimensional list called ages where each sublist contains a studentâ
 "Aaron" is 15
 "Dhruti" is 16
 """
+
+heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64]]
+
+heights.append(["Vik", 68])
+print(heights)
+
+ages = [["Aaron", 15], ["Dhruti", 16]]
+print(ages)
